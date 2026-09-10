@@ -1,7 +1,15 @@
 # Visibility One – V3.2 Preview
 
-Statischer, öffentlicher Spiegel des Inhaltsentwurfs "Visibility One V3.2" (konsolidierte Startseiten-Vorschau) zum Testen ohne Login.
+Statischer, öffentlicher Export der Visibility-One-Website (Next.js,
+Static Export) zum Testen ohne Login.
 
-- Quelle: Claude-Artifact-Preview auf Basis von Branch `backup-startseite-vor-redesign` (Commit `ebf423c`) des Haupt-Repositorys `visibility-one`.
+- Quelle: Branch `claude/laughing-mayer-umjogb`, Commit `4e597e2f88883ea8aa58fd85ae11691aed85a66d`
+  des Haupt-Repositorys [`Bettina69/visibility-one`](https://github.com/Bettina69/visibility-one).
+- Enthält die vollständige Next.js-App (Startseite und vorhandene
+  Unterseiten wie `/angebote`, `/meine-methode`, `/ueber-mich` usw.),
+  exportiert mit `basePath: "/visibility-one-v32-preview"` passend zu
+  dieser GitHub-Pages-URL. Diese Anpassung ist nur Teil dieses Exports
+  und wurde nicht in `visibility-one` committet.
 - Kein aktives Projekt, keine Verbindung zur produktiven Visibility-One-Website.
-- Inhalte, Bilder, Farben und Layout entsprechen unverändert der V3.2-Vorschau.
+  `Bettina69/visibility-one` (`main`, Live-Seite und Backup-Branches)
+  wurden für diesen Export nicht verändert.
